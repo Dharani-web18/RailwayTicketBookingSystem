@@ -9,24 +9,9 @@ Purpose
 
 High-Level Architecture:
 The project employs the Spring Boot framework to create a RESTful API. Key components of the architecture include:
-
-1.Spring Boot Application:
-	Serves as the main application container.
-	Manages the routing of HTTP requests to the corresponding controller methods.
-
-2.Controller Layer:
-	Consists of the TicketController class with various methods to handle different API endpoints.
-	Maps incoming HTTP requests to appropriate business logic.
-
-3.Business Logic:
-	Manages the core functionality of ticket purchasing, seat allocation, user data storage, and modification/removal of user details.
-
-4.Data Storage:
-	Utilizes a HashMap to store user details and ticket information in memory.
-	Provides a simple and quick storage solution for the scope of the project.
-
-5.API Endpoints:
-	Defines several RESTful API endpoints for ticket purchase, receipt viewing, user and seat information retrieval, user modification, and user removal.
-
-6.User and Ticket Classes:
-	Internal classes within TicketController representing User and Ticket entities.
+1.Spring Boot Application
+2.Controller Layer
+3.Business Logic
+4.Data Storage
+5.API Endpoints
+6.User and Ticket Classes
